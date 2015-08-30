@@ -6,7 +6,7 @@
 class Entity : public sf::Sprite
 {
 public:
-  explicit Entity(const sf::Image &image);
+  Entity(const sf::Image &image);
   virtual ~Entity() {}
 
   virtual void update(const float &delta) const = 0;

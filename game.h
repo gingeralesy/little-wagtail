@@ -9,7 +9,7 @@
 class Game
 {
 public:
-  explicit Game(const std::string &title);
+  Game(const std::string &title);
   ~Game();
 
   void addEntity(Entity *entity);
